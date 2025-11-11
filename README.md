@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# Business Companion App  
+**Empowering First-Time Entrepreneurs in Tier-2 and Tier-3 Cities**
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/63136dc5-c510-4449-80cd-eeaefe93aee1
+## Overview  
+The **Business Companion App** is a full-stack platform designed to assist first-time entrepreneurs and small-town business owners in managing compliance, billing, and business growth from a single interface.  
 
-## How can I edit this code?
+It streamlines access to **GST registration, business licenses, and Udyam** services with regional language guidance through a chatbot and voice assistant.  
 
-There are several ways of editing your application.
+Beyond compliance, it functions as a **smart business secretary**—sending reminders, tracking invoices, analyzing sales, and fostering collaborative growth among shopkeepers, vendors, and service providers.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/63136dc5-c510-4449-80cd-eeaefe93aee1) and start prompting.
+## Features  
 
-Changes made via Lovable will be committed automatically to this repo.
+- Simplified Registrations – Redirects users to GST, License, and Udyam registration with guided steps.  
+- Multilingual Chatbot & Voice Assistant – Supports multiple Indian languages using OpenRouter API (LLaMA model) and Google Translate API.  
+- Smart Notifications – Twilio API integration enables WhatsApp alerts for GST filings, renewals, and pending invoices.  
+- Billing & Analytics – Built-in billing system tracks payments and visualizes sales data using Python (NumPy, Pandas, Matplotlib).  
+- Collaborative Growth – Connects local entrepreneurs to learn, trade, and grow together within a shared ecosystem.  
+- Data Insights – Highlights best-selling products, overdue invoices, and monthly trends.  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Tech Stack  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend
+- HTML, CSS (TailwindCSS)  
+- JavaScript (React.js)  
 
-Follow these steps:
+### Backend
+- Node.js  
+- Express (TypeScript)  
+- Supabase (BaaS) with PostgreSQL  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### APIs Used
+- OpenRouter API (LLaMA) – AI chatbot guidance  
+- Twilio API – WhatsApp notifications  
+- Google Translate API – Multilingual support  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Data Analysis Tools
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib  
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Deployment
+- Vercel  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## Installation and Setup  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/63136dc5-c510-4449-80cd-eeaefe93aee1) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### 1. Clone the Repository  
+```bash
+git clone https://github.com/<your-username>/business-companion-app.git
+cd business-companion-app
